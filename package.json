@@ -59,7 +59,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "add --no-verify to bypass"
     }
   },
   "lint-staged": {

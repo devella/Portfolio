@@ -23,7 +23,7 @@ const Footer = () => {
               return (
                 <a
                   key={id}
-                  href={url || 'https://devella.github.io/robot-friends/'}
+                  href={url || 'https://github.com/devella'}
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
@@ -36,7 +36,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/devella" target="_blank" rel="noopener noreferrer">
             Samson
           </a>
         </p>

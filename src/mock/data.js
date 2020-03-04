@@ -11,17 +11,17 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Samson',
-  subtitle: 'I am a Front End Developer / Test Analyst ',
+  subtitle: 'Software Developer / Test Analyst',
   cta: 'find out more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'me.jpg',
+  img: 'mypic.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.myperfectresume.com/', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -38,23 +38,23 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Robot Friends',
-    info: 'A clean, beautiful and responsive portfolio template for Developers!',
+    img: 'face.jpg',
+    title: 'facial-detection-app',
+    info: 'This project was bootstrapped with Create React App.',
     info2:
-      'This project was highlighted in one of the highest valorated courses on Udemy, called Zero To Mastery.',
-    url: 'https://devella.github.io/robot-friends/',
-    repo: 'https://github.com/devella/robot-friends', // if no repo, the button will not show up
+      'Create-React-App, Tachyons, react-tilt, particles.js, Bcrypt, Postgresql, knex, body parser, cors express.',
+    url: 'https://face-detection-game.herokuapp.com/',
+    repo: 'https://github.com/devella/facial-detection-app', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: 'Robot Friends',
+    img: 'portemp.png',
+    title: 'Portfolio-Template',
     info: 'A clean, beautiful and responsive portfolio template for Developers!',
     info2:
       'This project was highlighted in one of the highest valorated courses on Udemy, called Zero To Mastery.',
-    url: 'https://devella.github.io/robot-friends/',
-    repo: 'https://github.com/devella/robot-friends', // if no repo, the button will not show up
+    url: 'https://portfolio-template212.netlify.com/',
+    repo: 'https://github.com/devella/Portfolio-Template', // if no repo, the button will not show up
   },
 ];
 

@@ -43,7 +43,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I have created solutions for my clients by improving their web development processes and accomplish their ideas come true, by front-end mostly using JavaScript, React, Gatsby, Node, Express.js & MongoDB.'}
+                    'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
