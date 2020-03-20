@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Samson | Software Developer ', // e.g: 'Name | Developer'
+  title: 'Samson | Web Developer ', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello, my name is',
   name: 'Samson',
-  subtitle: 'Software Developer / Test Analyst',
+  subtitle: 'Web Developer / Test Analyst',
   cta: 'find out more',
 };
 
